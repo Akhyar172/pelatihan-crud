@@ -26,11 +26,11 @@
                     </div>
                 </header>
             @endif
-
             <!-- Page Content -->
             <main>
                 {{ $slot }}
             </main>
         </div>
+        <script src="http://cdn.tailwindcss.com/?plugins-forms"></script>
     </body>
 </html>
